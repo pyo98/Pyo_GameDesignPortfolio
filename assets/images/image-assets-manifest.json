@@ -1,0 +1,59 @@
+{
+  "gucheon": {
+    "display_name": "구천을 기는 용",
+    "files": {
+      "hero-png": "assets/images/gucheon/gucheon-hero.png",
+      "hero-webp": "assets/images/gucheon/gucheon-hero.webp",
+      "title-bg-png": "assets/images/gucheon/gucheon-title-bg.png",
+      "title-bg-webp": "assets/images/gucheon/gucheon-title-bg.webp",
+      "og-image-png": "assets/images/gucheon/gucheon-og-image.png",
+      "og-image-webp": "assets/images/gucheon/gucheon-og-image.webp",
+      "search-image-png": "assets/images/gucheon/gucheon-search-image.png",
+      "search-image-webp": "assets/images/gucheon/gucheon-search-image.webp",
+      "logo-symbol-png": "assets/images/gucheon/gucheon-logo-symbol.png",
+      "logo-symbol-svg": "assets/images/gucheon/gucheon-logo-symbol.svg",
+      "favicon-512-png": "assets/images/gucheon/gucheon-favicon-512.png",
+      "favicon-ico": "assets/images/gucheon/gucheon-favicon.ico",
+      "favicon-png": "assets/images/gucheon/gucheon-favicon.png",
+      "favicon-svg": "assets/images/gucheon/gucheon-favicon.svg"
+    }
+  },
+  "the-flood": {
+    "display_name": "The Flood",
+    "files": {
+      "hero-png": "assets/images/the-flood/the-flood-hero.png",
+      "hero-webp": "assets/images/the-flood/the-flood-hero.webp",
+      "title-bg-png": "assets/images/the-flood/the-flood-title-bg.png",
+      "title-bg-webp": "assets/images/the-flood/the-flood-title-bg.webp",
+      "og-image-png": "assets/images/the-flood/the-flood-og-image.png",
+      "og-image-webp": "assets/images/the-flood/the-flood-og-image.webp",
+      "search-image-png": "assets/images/the-flood/the-flood-search-image.png",
+      "search-image-webp": "assets/images/the-flood/the-flood-search-image.webp",
+      "logo-symbol-png": "assets/images/the-flood/the-flood-logo-symbol.png",
+      "logo-symbol-svg": "assets/images/the-flood/the-flood-logo-symbol.svg",
+      "favicon-512-png": "assets/images/the-flood/the-flood-favicon-512.png",
+      "favicon-ico": "assets/images/the-flood/the-flood-favicon.ico",
+      "favicon-png": "assets/images/the-flood/the-flood-favicon.png",
+      "favicon-svg": "assets/images/the-flood/the-flood-favicon.svg"
+    }
+  },
+  "naiadel": {
+    "display_name": "NAIADEL",
+    "files": {
+      "hero-png": "assets/images/naiadel/naiadel-hero.png",
+      "hero-webp": "assets/images/naiadel/naiadel-hero.webp",
+      "title-bg-png": "assets/images/naiadel/naiadel-title-bg.png",
+      "title-bg-webp": "assets/images/naiadel/naiadel-title-bg.webp",
+      "og-image-png": "assets/images/naiadel/naiadel-og-image.png",
+      "og-image-webp": "assets/images/naiadel/naiadel-og-image.webp",
+      "search-image-png": "assets/images/naiadel/naiadel-search-image.png",
+      "search-image-webp": "assets/images/naiadel/naiadel-search-image.webp",
+      "logo-symbol-png": "assets/images/naiadel/naiadel-logo-symbol.png",
+      "logo-symbol-svg": "assets/images/naiadel/naiadel-logo-symbol.svg",
+      "favicon-512-png": "assets/images/naiadel/naiadel-favicon-512.png",
+      "favicon-ico": "assets/images/naiadel/naiadel-favicon.ico",
+      "favicon-png": "assets/images/naiadel/naiadel-favicon.png",
+      "favicon-svg": "assets/images/naiadel/naiadel-favicon.svg"
+    }
+  }
+}

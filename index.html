@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Planning Portfolio</title>
+  <meta name="description" content="로그라이트, 타워디펜스, MMORPG 프로젝트의 기획서와 언리얼엔진 프로토타입을 정리한 게임기획 포트폴리오입니다.">
+  <meta name="keywords" content="게임기획, 게임기획 포트폴리오, 게임기획자, 레벨디자인, 시스템기획, Unreal Engine">
+  <meta property="og:title" content="Game Planning Portfolio">
+  <meta property="og:description" content="로그라이트, 타워디펜스, MMORPG 프로젝트의 기획서와 언리얼엔진 프로토타입을 정리한 게임기획 포트폴리오입니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/images/common/site-og-image.png">
+  <link rel="icon" href="./assets/images/common/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/images/common/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="brand" href="./index.html">
+        <img src="./assets/images/common/favicon.svg" alt="포트폴리오 심볼">
+        <span>Game Planning Portfolio</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="./index.html#projects">Projects</a>
+        <a href="./index.html#documents">Documents</a>
+        <a href="./index.html#videos">Videos</a>
+        <a href="./index.html#about">About</a>
+        <a href="./index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <!-- ==============================
+         메인 히어로 섹션
+         - 사이트 전체 목적과 3개 프로젝트를 소개
+    ================================ -->
+    <section class="home-hero">
+      <div class="container home-hero-grid">
+        <div>
+          <p class="hero-kicker">Game Design · Documentation · Prototype</p>
+          <h1 class="hero-title">Game Planning Portfolio</h1>
+          <p class="hero-desc">3개의 게임 프로젝트를 기반으로 개발제안서, 스토리, 캐릭터/배경 컨셉, 메카닉스, 레벨디자인, UI/서비스 기획 문서를 열람할 수 있도록 구성한 반응형 웹 포트폴리오다.</p>
+          <div class="btn-row">
+            <a class="btn primary" href="#projects">프로젝트 보기</a>
+            <a class="btn ghost" href="#documents">PDF 문서 구성 보기</a>
+          </div>
+          <div class="hero-stats" aria-label="포트폴리오 구성 요약">
+            <div class="stat"><strong>3</strong><span>Game Projects</span></div>
+            <div class="stat"><strong>9+</strong><span>PDF Document Types</span></div>
+            <div class="stat"><strong>100%</strong><span>HTML · CSS · JS</span></div>
+          </div>
+        </div>
+        <div class="hero-art-grid" aria-label="프로젝트 대표 이미지 모음">
+          <a class="hero-art-card" href="./projects/gucheon.html" aria-label="구천을 기는 용 프로젝트 상세 페이지로 이동"><img src="./assets/images/gucheon/gucheon-hero.webp" alt="구천을 기는 용 대표 이미지"><span class="hero-art-label">구천을 기는 용</span></a>
+          <a class="hero-art-card" href="./projects/the-flood.html" aria-label="The Flood 프로젝트 상세 페이지로 이동"><img src="./assets/images/the-flood/the-flood-hero.webp" alt="The Flood 대표 이미지"><span class="hero-art-label">The Flood</span></a>
+          <a class="hero-art-card" href="./projects/naiadel.html" aria-label="NAIADEL 프로젝트 상세 페이지로 이동"><img src="./assets/images/naiadel/naiadel-hero.webp" alt="NAIADEL 대표 이미지"><span class="hero-art-label">NAIADEL</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         프로젝트 쇼케이스
+         - JS에서 프로젝트 카드 렌더링
+    ================================ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Projects</p>
+          <h2 class="section-title">3개의 게임기획 프로젝트</h2>
+          <p class="section-desc">팀 프로젝트 1개와 개인 프로젝트 2개를 장르별로 분리하여 프로젝트 개요, 담당 역할, PDF 기획서, 프로토타입 영상 영역으로 구성한다.</p>
+        </div>
+        <div class="project-grid" data-project-grid></div>
+      </div>
+    </section>
+
+    <section class="section" id="documents">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Planning Documents</p>
+          <h2 class="section-title">PDF 기획서 아카이브</h2>
+          <p class="section-desc">각 프로젝트 상세 페이지에서 문서 카드를 클릭하면 PDF를 바로 미리보기로 확인할 수 있다.</p>
+        </div>
+        <div class="doc-preview-grid">
+          <div class="doc-pill">개발제안서</div>
+          <div class="doc-pill">게임스토리&게임시나리오</div>
+          <div class="doc-pill">캐릭터컨셉기획서</div>
+          <div class="doc-pill">배경컨셉기획서</div>
+          <div class="doc-pill">게임메카닉스기획서</div>
+          <div class="doc-pill">게임콘텐츠시스템기획서</div>
+          <div class="doc-pill">레벨디자인기획서</div>
+          <div class="doc-pill">게임UI디자인기획서</div>
+          <div class="doc-pill">게임서비스기획서</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="videos">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Prototype Videos</p>
+          <h2 class="section-title">언리얼엔진 프로토타입 영상</h2>
+          <p class="section-desc">임시 YouTube 링크가 연결되어 있으며, assets/js/project-data.js에서 videoId를 교체하면 영상이 변경된다.</p>
+        </div>
+        <div class="video-grid" data-home-video-grid></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">About Portfolio</p>
+          <h2 class="section-title">기획 문서와 프로토타입을 함께 보여주는 구조</h2>
+        </div>
+        <div class="overview-grid">
+          <article class="info-card"><h3>문서화 중심</h3><p>프로젝트별 PDF 문서를 아카이브처럼 정리하여 기획 범위와 문서 작성 능력을 보여준다.</p></article>
+          <article class="info-card"><h3>장르 다양성</h3><p>로그라이트, 타워디펜스, MMORPG를 분리하여 장르별 기획 접근 방식을 보여준다.</p></article>
+          <article class="info-card"><h3>유지보수 구조</h3><p>이미지, PDF, 영상 ID, 프로젝트 설명을 파일 단위로 관리하여 VS Code에서 쉽게 수정할 수 있다.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+      <p>© 2026 Game Planning Portfolio. Built with HTML, CSS, Vanilla JavaScript.</p>
+      <p>PDF 문서와 언리얼엔진 프로토타입을 중심으로 구성한 게임기획 포트폴리오.</p>
+    </div>
+  </footer>
+  <button class="to-top" type="button" aria-label="맨 위로 이동">↑</button>
+  <script src="./assets/js/project-data.js"></script>
+  <script src="./assets/js/pdf-viewer.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

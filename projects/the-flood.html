@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Flood | Game Planning Portfolio</title>
+  <meta name="description" content="좀비 아포칼립스 타워디펜스 개인 프로젝트 The Flood의 기획 문서와 프로토타입을 확인할 수 있는 상세 페이지입니다.">
+  <meta name="keywords" content="게임기획, 게임기획 포트폴리오, 게임기획자, 레벨디자인, 시스템기획, Unreal Engine">
+  <meta property="og:title" content="The Flood | Game Planning Portfolio">
+  <meta property="og:description" content="좀비 아포칼립스 타워디펜스 개인 프로젝트 The Flood의 기획 문서와 프로토타입을 확인할 수 있는 상세 페이지입니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../assets/images/the-flood/the-flood-og-image.png">
+  <link rel="icon" href="../assets/images/common/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/images/common/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body data-project-page="the-flood">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="brand" href="../index.html">
+        <img src="../assets/images/common/favicon.svg" alt="포트폴리오 심볼">
+        <span>Game Planning Portfolio</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#documents">Documents</a>
+        <a href="../index.html#videos">Videos</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <!-- ==============================
+         프로젝트 히어로
+         - JS에서 프로젝트별 이미지/타이틀 주입
+    ================================ -->
+    <section class="project-hero">
+      <div class="project-hero__bg"><img data-project-hero-image src="" alt="프로젝트 타이틀 배경"></div>
+      <div class="project-hero__content">
+        <div class="project-logo-line">
+          <img data-project-logo src="" alt="프로젝트 로고 심볼">
+          <div class="tag-list" data-project-tags></div>
+        </div>
+        <h1 class="project-title-font" data-project-title></h1>
+        <p data-project-summary></p>
+        <div class="btn-row" style="margin-top: 26px;">
+          <a class="btn primary" href="#documents">PDF 문서 보기</a>
+          <a class="btn ghost" href="#video">게임플레이 영상</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Project Summary</p>
+          <h2 class="section-title">프로젝트 개요</h2>
+        </div>
+        <dl class="summary-table" data-project-summary-table></dl>
+      </div>
+    </section>
+
+    <section class="section" id="video">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Gameplay Prototype</p>
+          <h2 class="section-title">언리얼엔진 프로토타입 영상</h2>
+          <p class="section-desc">임시 YouTube 링크가 연결되어 있으며, assets/js/project-data.js에서 videoId를 교체하면 영상이 변경된다.</p>
+        </div>
+        <div class="video-embed">
+          <iframe data-video-frame hidden allowfullscreen></iframe>
+          <div class="pdf-empty" data-video-placeholder>YouTube 영상 ID를 확인해라.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="documents">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Planning Documents</p>
+          <h2 class="section-title">PDF 기획서 열람</h2>
+          <p class="section-desc">문서 카드를 선택하면 우측 PDF 미리보기 영역에서 바로 확인할 수 있다. 모든 문서 카드는 PDF 경로와 연결되어 있으며, 임시 PDF는 같은 파일명으로 교체하면 된다.</p>
+        </div>
+        <div class="document-layout">
+          <div class="document-list" data-document-list></div>
+          <section class="pdf-panel" aria-label="PDF 미리보기">
+            <div class="pdf-toolbar">
+              <strong data-current-pdf-title>PDF 문서</strong>
+              <a class="btn ghost" data-open-pdf-link href="#" target="_blank" rel="noopener">새 탭에서 열기</a>
+            </div>
+            <iframe class="pdf-viewer" data-pdf-viewer title="PDF 미리보기"></iframe>
+            <div class="pdf-empty" data-pdf-empty hidden>PDF 문서를 선택해라.</div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Design Highlights</p>
+          <h2 class="section-title">기획 하이라이트</h2>
+        </div>
+        <div class="highlight-grid" data-highlight-grid></div>
+      </div>
+    </section>
+
+    <section class="back-band">
+      <div class="container btn-row">
+        <a class="btn primary" href="../index.html#projects">전체 프로젝트로 돌아가기</a>
+        <a class="btn ghost" href="#main">페이지 상단으로 이동</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+      <p>© 2026 Game Planning Portfolio. Built with HTML, CSS, Vanilla JavaScript.</p>
+      <p>PDF 문서와 언리얼엔진 프로토타입을 중심으로 구성한 게임기획 포트폴리오.</p>
+    </div>
+  </footer>
+  <button class="to-top" type="button" aria-label="맨 위로 이동">↑</button>
+  <script src="../assets/js/project-data.js"></script>
+  <script src="../assets/js/pdf-viewer.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="NAIADEL favicon">
+  <defs><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3a8"/><stop offset="1" stop-color="#d09a21"/></linearGradient><linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dbfff9"/><stop offset="1" stop-color="#009f9d"/></linearGradient></defs>
+  <path d="M256 34 C348 95 394 192 365 297 C345 371 300 430 256 482 C212 430 167 371 147 297 C118 192 164 95 256 34Z" fill="#f7fbfa" stroke="#cad2d0" stroke-width="10"/>
+  <path d="M256 58 C183 111 147 191 170 284 C186 350 220 407 256 452Z" fill="url(#gold)"/>
+  <path d="M256 58 C329 111 365 191 342 284 C326 350 292 407 256 452Z" fill="url(#teal)"/>
+  <g transform="translate(197 249)"><circle r="40" fill="#fff1a2" stroke="#d49917" stroke-width="13"/><g fill="#d49917"><path d="M0-88 L13-45 L0-58 L-13-45Z"/><path d="M0 88 L13 45 L0 58 L-13 45Z"/><path d="M88 0 L45 13 L58 0 L45-13Z"/><path d="M-88 0 L-45 13 L-58 0 L-45-13Z"/><path d="M63-63 L43-24 L24-43Z"/><path d="M63 63 L43 24 L24 43Z"/><path d="M-63-63 L-43-24 L-24-43Z"/><path d="M-63 63 L-43 24 L-24 43Z"/></g></g>
+  <path d="M290 157 C355 208 350 312 277 369 C271 289 291 215 290 157Z" fill="#074b4e" opacity=".35"/>
+  <path d="M285 382 C303 305 317 242 320 151" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round"/>
+  <path d="M307 254 C345 241 367 216 381 183 M300 306 C342 305 368 326 389 360" fill="none" stroke="#f7ffff" stroke-width="11" stroke-linecap="round"/>
+</svg>

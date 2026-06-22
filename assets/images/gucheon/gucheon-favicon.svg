@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Guchon favicon">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a2d31"/><stop offset="1" stop-color="#020304"/></linearGradient></defs>
+  <path d="M256 30 C335 105 382 187 364 285 C349 367 306 435 256 490 C206 435 163 367 148 285 C130 187 177 105 256 30Z" fill="url(#g)" stroke="#222" stroke-width="12"/>
+  <path d="M215 100 C244 88 278 88 306 104 M186 185 C228 164 286 164 329 187 M184 263 C226 240 288 240 330 264" fill="none" stroke="#383b3f" stroke-width="10" opacity=".65"/>
+  <path d="M285 130 L214 276 L272 241 L222 383 L343 179 L280 208Z" fill="#be1d25"/>
+  <path d="M357 276 C314 286 279 314 249 357" fill="none" stroke="#bd1d25" stroke-width="24" stroke-linecap="round"/>
+  <path d="M333 342 C306 351 285 370 268 397" fill="none" stroke="#bd1d25" stroke-width="20" stroke-linecap="round"/>
+</svg>

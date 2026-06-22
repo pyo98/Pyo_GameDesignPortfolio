@@ -1,0 +1,9 @@
+{
+  "generated_by": "ChatGPT",
+  "projects": [
+    "gucheon",
+    "the-flood",
+    "naiadel"
+  ],
+  "notes": "PDF 문서가 없는 항목은 project-data.js에서 preparing 상태로 표시된다."
+}
