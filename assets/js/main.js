@@ -54,7 +54,7 @@ function renderHomeProjects() {
           <h3>${project.title}</h3>
           <p>${project.genre}</p>
           <div class="tag-list">
-            ${project.keywords.slice(0, 3).map((keyword) => `<span class="tag">${keyword}</span>`).join('')}
+            ${project.keywords.slice(0, 4).map((keyword) => `<span class="tag">${keyword}</span>`).join('')}
           </div>
           <span class="btn ghost">상세 보기</span>
         </div>
