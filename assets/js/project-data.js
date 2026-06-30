@@ -115,7 +115,7 @@ const PROJECTS = [
       { title: "게임콘텐츠시스템기획서", path: "assets/pdf/naiadel/contents-system.pdf", status: "available" },
       { title: "레벨디자인기획서", path: "assets/pdf/naiadel/level-design.pdf", status: "available" },
       { title: "게임UI디자인기획서", path: "assets/pdf/naiadel/ui-design.pdf", status: "available" },
-      { title: "게임서비스기획서", path: "assets/pdf/naiadel/service-plan.pdf", status: "available" }
+      // { title: "게임서비스기획서", path: "assets/pdf/naiadel/service-plan.pdf", status: "available" }
     ],
     highlights: [
       { title: "핵심 콘셉트", text: "세계수, 태양신 권능, 인간과 엘프의 양대 진영 갈등을 MMORPG 구조로 확장한다." },
