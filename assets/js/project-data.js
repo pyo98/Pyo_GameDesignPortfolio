@@ -44,46 +44,46 @@ const PROJECTS = [
       { title: "문서화 포인트", text: "스토리, 캐릭터, 배경, 레벨 디자인 문서를 포트폴리오용 PDF로 정리한다." }
     ]
   },
-  {
-    id: "the-flood",
-    title: "The Flood",
-    type: "Personal Project",
-    genre: "좀비 아포칼립스 타워디펜스",
-    engine: "Unreal Engine",
-    platform: "PC",
-    period: "2026.04~",
-    role: "게임기획",
-    fontClass: "project-theme-the-flood",
-    color: "#e3b634",
-    summary: "운석우 이후 폐허가 된 서울에서 생존자들이 방어선을 구축하는 좀비 아포칼립스 타워디펜스.",
-    keywords: ["Tower Defense", "Zombie Apocalypse", "Survival", "Character Collection"],
-    images: {
-      hero: "assets/images/the-flood/the-flood-hero.webp",
-      titleBg: "assets/images/the-flood/the-flood-title-bg.webp",
-      logo: "assets/images/the-flood/the-flood-logo-symbol.svg",
-      og: "assets/images/the-flood/the-flood-og-image.png",
-      search: "assets/images/the-flood/the-flood-search-image.webp",
-      favicon: "assets/images/the-flood/the-flood-favicon.svg"
-    },
-    videoId: "qC5KtatMcUw", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
-    documents: [
-      { title: "개발제안서", path: "assets/pdf/the-flood/proposal.pdf", status: "available" },
-      { title: "게임스토리&게임시나리오", path: "assets/pdf/the-flood/story-scenario.pdf", status: "available" },
-      { title: "캐릭터컨셉기획서", path: "assets/pdf/the-flood/character-concept.pdf", status: "available" },
-      { title: "배경컨셉기획서", path: "assets/pdf/the-flood/background-concept.pdf", status: "available" },
-      { title: "게임메카닉스기획서", path: "assets/pdf/the-flood/game-mechanics.pdf", status: "available" },
-      { title: "게임콘텐츠시스템기획서", path: "assets/pdf/the-flood/contents-system.pdf", status: "available" },
-      { title: "레벨디자인기획서", path: "assets/pdf/the-flood/level-design.pdf", status: "available" },
-      { title: "게임UI디자인기획서", path: "assets/pdf/the-flood/ui-design.pdf", status: "available" },
-      { title: "게임서비스기획서", path: "assets/pdf/the-flood/service-plan.pdf", status: "available" }
-    ],
-    highlights: [
-      { title: "핵심 콘셉트", text: "노란 운석우, 좀비화, 생존자 방어선, 폐허가 된 서울을 중심으로 전개한다." },
-      { title: "스테이지 구조", text: "스테이지 선택, 스토리 컷신, 게임플레이로 이어지는 진행 흐름을 설계한다." },
-      { title: "장르 표현", text: "바리케이드, 방어 시설, 좀비 무리 실루엣으로 타워디펜스 정체성을 강화한다." },
-      { title: "문서화 포인트", text: "스토리, 캐릭터, 배경 컨셉 문서를 프로젝트 상세 페이지에서 확인할 수 있게 한다." }
-    ]
-  },
+  // {
+  //   id: "the-flood",
+  //   title: "The Flood",
+  //   type: "Personal Project",
+  //   genre: "좀비 아포칼립스 타워디펜스",
+  //   engine: "Unreal Engine",
+  //   platform: "PC",
+  //   period: "2026.04~",
+  //   role: "게임기획",
+  //   fontClass: "project-theme-the-flood",
+  //   color: "#e3b634",
+  //   summary: "운석우 이후 폐허가 된 서울에서 생존자들이 방어선을 구축하는 좀비 아포칼립스 타워디펜스.",
+  //   keywords: ["Tower Defense", "Zombie Apocalypse", "Survival", "Character Collection"],
+  //   images: {
+  //     hero: "assets/images/the-flood/the-flood-hero.webp",
+  //     titleBg: "assets/images/the-flood/the-flood-title-bg.webp",
+  //     logo: "assets/images/the-flood/the-flood-logo-symbol.svg",
+  //     og: "assets/images/the-flood/the-flood-og-image.png",
+  //     search: "assets/images/the-flood/the-flood-search-image.webp",
+  //     favicon: "assets/images/the-flood/the-flood-favicon.svg"
+  //   },
+  //   videoId: "qC5KtatMcUw", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
+  //   documents: [
+  //     { title: "개발제안서", path: "assets/pdf/the-flood/proposal.pdf", status: "available" },
+  //     { title: "게임스토리&게임시나리오", path: "assets/pdf/the-flood/story-scenario.pdf", status: "available" },
+  //     { title: "캐릭터컨셉기획서", path: "assets/pdf/the-flood/character-concept.pdf", status: "available" },
+  //     { title: "배경컨셉기획서", path: "assets/pdf/the-flood/background-concept.pdf", status: "available" },
+  //     { title: "게임메카닉스기획서", path: "assets/pdf/the-flood/game-mechanics.pdf", status: "available" },
+  //     { title: "게임콘텐츠시스템기획서", path: "assets/pdf/the-flood/contents-system.pdf", status: "available" },
+  //     { title: "레벨디자인기획서", path: "assets/pdf/the-flood/level-design.pdf", status: "available" },
+  //     { title: "게임UI디자인기획서", path: "assets/pdf/the-flood/ui-design.pdf", status: "available" },
+  //     { title: "게임서비스기획서", path: "assets/pdf/the-flood/service-plan.pdf", status: "available" }
+  //   ],
+  //   highlights: [
+  //     { title: "핵심 콘셉트", text: "노란 운석우, 좀비화, 생존자 방어선, 폐허가 된 서울을 중심으로 전개한다." },
+  //     { title: "스테이지 구조", text: "스테이지 선택, 스토리 컷신, 게임플레이로 이어지는 진행 흐름을 설계한다." },
+  //     { title: "장르 표현", text: "바리케이드, 방어 시설, 좀비 무리 실루엣으로 타워디펜스 정체성을 강화한다." },
+  //     { title: "문서화 포인트", text: "스토리, 캐릭터, 배경 컨셉 문서를 프로젝트 상세 페이지에서 확인할 수 있게 한다." }
+  //   ]
+  // },
   {
     id: "naiadel",
     title: "NAIADEL",
@@ -108,14 +108,18 @@ const PROJECTS = [
     videoId: "qC5KtatMcUw", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
     documents: [
       { title: "개발제안서", path: "assets/pdf/naiadel/proposal.pdf", status: "available" },
-      { title: "게임스토리&게임시나리오", path: "assets/pdf/naiadel/story-scenario.pdf", status: "available" },
-      { title: "캐릭터컨셉기획서", path: "assets/pdf/naiadel/character-concept.pdf", status: "available" },
+      { title: "게임스토리", path: "assets/pdf/naiadel/story.pdf", status: "available" },
+      { title: "클래스컨셉기획서", path: "assets/pdf/naiadel/class-concept.pdf", status: "available" },
+      { title: "NPC/몬스터컨셉기획서", path: "assets/pdf/naiadel/npc-monster-concept.pdf", status: "available" },
       { title: "배경컨셉기획서", path: "assets/pdf/naiadel/background-concept.pdf", status: "available" },
       { title: "게임메카닉스기획서", path: "assets/pdf/naiadel/game-mechanics.pdf", status: "available" },
-      { title: "게임콘텐츠시스템기획서", path: "assets/pdf/naiadel/contents-system.pdf", status: "available" },
+      { title: "스킬시스템기획서", path: "assets/pdf/naiadel/skill-system.pdf", status: "available" },
+      { title: "아이템시스템기획서", path: "assets/pdf/naiadel/item-system.pdf", status: "available" },
+      { title: "콘텐츠시스템기획서", path: "assets/pdf/naiadel/contents-system.pdf", status: "available" },
       { title: "레벨디자인기획서", path: "assets/pdf/naiadel/level-design.pdf", status: "available" },
-      { title: "게임UI디자인기획서", path: "assets/pdf/naiadel/ui-design.pdf", status: "available" },
-      { title: "게임서비스기획서", path: "assets/pdf/naiadel/service-plan.pdf", status: "available" }
+      { title: "UI디자인기획서", path: "assets/pdf/naiadel/ui-design.pdf", status: "available" },
+      { title: "서비스지표기획서", path: "assets/pdf/naiadel/kpi.pdf", status: "available" },
+      { title: "스팀입점제안서", path: "assets/pdf/naiadel/steam-proposal.pdf", status: "available" }
     ],
     highlights: [
       { title: "핵심 콘셉트", text: "세계수, 태양신 권능, 인간과 엘프의 양대 진영 갈등을 MMORPG 구조로 확장한다." },
