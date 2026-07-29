@@ -4,46 +4,46 @@
    - HTML 수정 없이 데이터만 교체하기 위한 파일
 ================================ */
 const PROJECTS = [
-  {
-    id: "gucheon",
-    title: "구천을 기는 용",
-    type: "Team Project",
-    genre: "한국형 다크판타지 로그라이트",
-    engine: "Unreal Engine",
-    platform: "PC",
-    period: "2026.06~",
-    role: "레벨디자인, 캐릭터/배경 컨셉, 개발제안, 데이터 정리",
-    fontClass: "project-theme-gucheon",
-    color: "#b6323a",
-    summary: "검은 이무기 묵의 반복된 순례와 구천의 저주를 다루는 한국형 다크판타지 로그라이트.",
-    keywords: ["Roguelite", "Dark Korean Fantasy", "Pilgrimage", "Dragon"],
-    images: {
-      hero: "assets/images/gucheon/gucheon-hero.webp",
-      titleBg: "assets/images/gucheon/gucheon-title-bg.webp",
-      logo: "assets/images/gucheon/gucheon-logo-symbol.svg",
-      og: "assets/images/gucheon/gucheon-og-image.png",
-      search: "assets/images/gucheon/gucheon-search-image.webp",
-      favicon: "assets/images/gucheon/gucheon-favicon.svg"
-    },
-    videoId: "qC5KtatMcUw", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
-    documents: [
-      { title: "개발제안서", path: "assets/pdf/gucheon/proposal.pdf", status: "available" },
-      { title: "게임스토리&게임시나리오", path: "assets/pdf/gucheon/story-scenario.pdf", status: "available" },
-      { title: "캐릭터컨셉기획서", path: "assets/pdf/gucheon/character-concept.pdf", status: "available" },
-      { title: "배경컨셉기획서", path: "assets/pdf/gucheon/background-concept.pdf", status: "available" },
-      { title: "게임메카닉스기획서", path: "assets/pdf/gucheon/game-mechanics.pdf", status: "available" },
-      { title: "게임콘텐츠시스템기획서", path: "assets/pdf/gucheon/contents-system.pdf", status: "available" },
-      { title: "레벨디자인기획서", path: "assets/pdf/gucheon/level-design.pdf", status: "available" },
-      { title: "게임UI디자인기획서", path: "assets/pdf/gucheon/ui-design.pdf", status: "available" },
-      { title: "게임서비스기획서", path: "assets/pdf/gucheon/service-plan.pdf", status: "available" }
-    ],
-    highlights: [
-      { title: "핵심 콘셉트", text: "승천, 회귀, 검은 용의 저주, 순례길을 하나의 반복 구조로 연결한다." },
-      { title: "레벨 방향", text: "챕터별 테마와 룸 규칙을 기반으로 로그라이트 진행감을 설계한다." },
-      { title: "비주얼 정체성", text: "비 내리는 탈피골, 검은 비늘, 산사 폐허, 붉은 용언 문양을 중심으로 구성한다." },
-      { title: "문서화 포인트", text: "스토리, 캐릭터, 배경, 레벨 디자인 문서를 포트폴리오용 PDF로 정리한다." }
-    ]
-  },
+  // {
+  //   id: "gucheon",
+  //   title: "구천을 기는 용",
+  //   type: "Team Project",
+  //   genre: "한국형 다크판타지 로그라이트",
+  //   engine: "Unreal Engine",
+  //   platform: "PC",
+  //   period: "2026.06~",
+  //   role: "레벨디자인, 캐릭터/배경 컨셉, 개발제안, 데이터 정리",
+  //   fontClass: "project-theme-gucheon",
+  //   color: "#b6323a",
+  //   summary: "검은 이무기 묵의 반복된 순례와 구천의 저주를 다루는 한국형 다크판타지 로그라이트.",
+  //   keywords: ["Roguelite", "Dark Korean Fantasy", "Pilgrimage", "Dragon"],
+  //   images: {
+  //     hero: "assets/images/gucheon/gucheon-hero.webp",
+  //     titleBg: "assets/images/gucheon/gucheon-title-bg.webp",
+  //     logo: "assets/images/gucheon/gucheon-logo-symbol.svg",
+  //     og: "assets/images/gucheon/gucheon-og-image.png",
+  //     search: "assets/images/gucheon/gucheon-search-image.webp",
+  //     favicon: "assets/images/gucheon/gucheon-favicon.svg"
+  //   },
+  //   videoId: "qC5KtatMcUw", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
+  //   documents: [
+  //     { title: "개발제안서", path: "assets/pdf/gucheon/proposal.pdf", status: "available" },
+  //     { title: "게임스토리&게임시나리오", path: "assets/pdf/gucheon/story-scenario.pdf", status: "available" },
+  //     { title: "캐릭터컨셉기획서", path: "assets/pdf/gucheon/character-concept.pdf", status: "available" },
+  //     { title: "배경컨셉기획서", path: "assets/pdf/gucheon/background-concept.pdf", status: "available" },
+  //     { title: "게임메카닉스기획서", path: "assets/pdf/gucheon/game-mechanics.pdf", status: "available" },
+  //     { title: "게임콘텐츠시스템기획서", path: "assets/pdf/gucheon/contents-system.pdf", status: "available" },
+  //     { title: "레벨디자인기획서", path: "assets/pdf/gucheon/level-design.pdf", status: "available" },
+  //     { title: "게임UI디자인기획서", path: "assets/pdf/gucheon/ui-design.pdf", status: "available" },
+  //     { title: "게임서비스기획서", path: "assets/pdf/gucheon/service-plan.pdf", status: "available" }
+  //   ],
+  //   highlights: [
+  //     { title: "핵심 콘셉트", text: "승천, 회귀, 검은 용의 저주, 순례길을 하나의 반복 구조로 연결한다." },
+  //     { title: "레벨 방향", text: "챕터별 테마와 룸 규칙을 기반으로 로그라이트 진행감을 설계한다." },
+  //     { title: "비주얼 정체성", text: "비 내리는 탈피골, 검은 비늘, 산사 폐허, 붉은 용언 문양을 중심으로 구성한다." },
+  //     { title: "문서화 포인트", text: "스토리, 캐릭터, 배경, 레벨 디자인 문서를 포트폴리오용 PDF로 정리한다." }
+  //   ]
+  // },
   // {
   //   id: "the-flood",
   //   title: "The Flood",
@@ -126,6 +126,46 @@ const PROJECTS = [
       { title: "클래스 구조", text: "뉴 상투스와 나이아델 왕국을 기준으로 클래스와 2차 전직을 분리한다." },
       { title: "콘텐츠 루프", text: "스토리, 성장, 원정대, 전장, 균열로 이어지는 장기 플레이 루프를 설계한다." },
       { title: "문서화 포인트", text: "스토리, 클래스 컨셉, 메카닉스 문서를 통해 대규모 RPG 기획 역량을 보여준다." }
+    ]
+  },
+  {
+    id: "gucheon",
+    title: "구천을 기는 용",
+    type: "Team Project",
+    genre: "한국형 다크판타지 로그라이트",
+    engine: "Unreal Engine",
+    platform: "PC",
+    period: "2026.06~",
+    role: "레벨디자인, 캐릭터/배경 컨셉, 개발제안, 데이터 정리",
+    fontClass: "project-theme-gucheon",
+    color: "#b6323a",
+    summary: "검은 이무기 묵의 반복된 순례와 구천의 저주를 다루는 한국형 다크판타지 로그라이트.",
+    keywords: ["Roguelite", "Dark Korean Fantasy", "Pilgrimage", "Dragon"],
+    images: {
+      hero: "assets/images/gucheon/gucheon-hero.webp",
+      titleBg: "assets/images/gucheon/gucheon-title-bg.webp",
+      logo: "assets/images/gucheon/gucheon-logo-symbol.svg",
+      og: "assets/images/gucheon/gucheon-og-image.png",
+      search: "assets/images/gucheon/gucheon-search-image.webp",
+      favicon: "assets/images/gucheon/gucheon-favicon.svg"
+    },
+    videoId: "qC5KtatMcUw", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
+    documents: [
+      { title: "개발제안서", path: "assets/pdf/gucheon/proposal.pdf", status: "available" },
+      { title: "게임스토리&게임시나리오", path: "assets/pdf/gucheon/story-scenario.pdf", status: "available" },
+      { title: "캐릭터컨셉기획서", path: "assets/pdf/gucheon/character-concept.pdf", status: "available" },
+      { title: "배경컨셉기획서", path: "assets/pdf/gucheon/background-concept.pdf", status: "available" },
+      { title: "게임메카닉스기획서", path: "assets/pdf/gucheon/game-mechanics.pdf", status: "available" },
+      { title: "게임콘텐츠시스템기획서", path: "assets/pdf/gucheon/contents-system.pdf", status: "available" },
+      { title: "레벨디자인기획서", path: "assets/pdf/gucheon/level-design.pdf", status: "available" },
+      { title: "게임UI디자인기획서", path: "assets/pdf/gucheon/ui-design.pdf", status: "available" },
+      { title: "게임서비스기획서", path: "assets/pdf/gucheon/service-plan.pdf", status: "available" }
+    ],
+    highlights: [
+      { title: "핵심 콘셉트", text: "승천, 회귀, 검은 용의 저주, 순례길을 하나의 반복 구조로 연결한다." },
+      { title: "레벨 방향", text: "챕터별 테마와 룸 규칙을 기반으로 로그라이트 진행감을 설계한다." },
+      { title: "비주얼 정체성", text: "비 내리는 탈피골, 검은 비늘, 산사 폐허, 붉은 용언 문양을 중심으로 구성한다." },
+      { title: "문서화 포인트", text: "스토리, 캐릭터, 배경, 레벨 디자인 문서를 포트폴리오용 PDF로 정리한다." }
     ]
   }
 ];
