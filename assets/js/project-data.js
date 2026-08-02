@@ -105,7 +105,7 @@ const PROJECTS = [
       search: "assets/images/naiadel/naiadel-search-image.webp",
       favicon: "assets/images/naiadel/naiadel-favicon.svg"
     },
-    videoId: "qC5KtatMcUw", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
+    videoId: "67hcDPKg7zk", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
     documents: [
       { title: "개발제안서", path: "assets/pdf/naiadel/proposal.pdf", status: "available" },
       { title: "게임스토리", path: "assets/pdf/naiadel/story.pdf", status: "available" },
@@ -149,17 +149,17 @@ const PROJECTS = [
       search: "assets/images/gucheon/gucheon-search-image.webp",
       favicon: "assets/images/gucheon/gucheon-favicon.svg"
     },
-    videoId: "qC5KtatMcUw", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
+    // videoId: "qC5KtatMcUw", // 임시 YouTube 영상 ID: 실제 프로토타입 영상 업로드 후 이 값만 교체
     documents: [
       { title: "개발제안서", path: "assets/pdf/gucheon/proposal.pdf", status: "available" },
-      { title: "게임스토리&게임시나리오", path: "assets/pdf/gucheon/story-scenario.pdf", status: "available" },
+      // { title: "게임스토리&게임시나리오", path: "assets/pdf/gucheon/story-scenario.pdf", status: "available" },
       { title: "캐릭터컨셉기획서", path: "assets/pdf/gucheon/character-concept.pdf", status: "available" },
       { title: "배경컨셉기획서", path: "assets/pdf/gucheon/background-concept.pdf", status: "available" },
       { title: "게임메카닉스기획서", path: "assets/pdf/gucheon/game-mechanics.pdf", status: "available" },
       { title: "게임콘텐츠시스템기획서", path: "assets/pdf/gucheon/contents-system.pdf", status: "available" },
       { title: "레벨디자인기획서", path: "assets/pdf/gucheon/level-design.pdf", status: "available" },
-      { title: "게임UI디자인기획서", path: "assets/pdf/gucheon/ui-design.pdf", status: "available" },
-      { title: "게임서비스기획서", path: "assets/pdf/gucheon/service-plan.pdf", status: "available" }
+      // { title: "게임UI디자인기획서", path: "assets/pdf/gucheon/ui-design.pdf", status: "available" },
+      // { title: "게임서비스기획서", path: "assets/pdf/gucheon/service-plan.pdf", status: "available" }
     ],
     highlights: [
       { title: "핵심 콘셉트", text: "승천, 회귀, 검은 용의 저주, 순례길을 하나의 반복 구조로 연결한다." },
